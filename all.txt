@@ -2431,7 +2431,6 @@ using namespace std;
 int main()
 {
     ifstream inFile("input.txt");
-    ofstream outFile("output.txt");
 
     if (!inFile)
     {
@@ -2439,32 +2438,23 @@ int main()
         return 1;
     }
 
-    if (!outFile)
-    {
-        cerr << " out file not present";
-        return 1;
-    }
-
     char ch;
     while (inFile.get(ch))
     {
-        outFile.put(ch);
+        cout << ch << endl;
     }
 
     inFile.close();
-    outFile.close();
     inFile.open("input.txt");
-    outFile.open("output_line.txt");
 
     string line;
     while (getline(inFile, line))
     {
-        outFile << line << '\n';
+        cout << line << endl;
     }
 
     cout << "successfully copied the content";
 }
-
 
 25.load ALP program from input file to main memory.
 #include <bits/stdc++.h>
