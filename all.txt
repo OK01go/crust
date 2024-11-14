@@ -2485,7 +2485,14 @@ int main()
         cout << "memory[" << i << "] : " << memory[i] << endl;
     }
 }
+/*
+LOAD 10
+ADD 5
+STORE 15
+JUMP 100
+HALT
 
+*/
 
 26.Opcode error
 #include <bits/stdc++.h>
