@@ -1231,6 +1231,14 @@ int main() {
     return 0;
 }
 
+/*
+3
+0 4
+1 3
+2 2
+1
+*/
+
 
 
 
@@ -1392,6 +1400,14 @@ int main() {
     return 0;
 }
 
+/*
+3
+0 4
+1 3
+2 2
+1
+*/
+
 
 
 12 Round robin
@@ -1502,6 +1518,14 @@ int main() {
 
     return 0;
 }
+
+/*
+3
+0 4
+1 3
+2 2
+1
+*/
 
 
 13.Banker’s  Deadlock Avoidance algorithm
@@ -1628,6 +1652,18 @@ int main() {
 }
 
 
+
+/*
+3
+3
+3 3 2
+7 5 3 
+3 2 2
+9 0 2
+2 1 1
+2 1 1
+3 2 2
+*/
 
 
 
@@ -1760,6 +1796,18 @@ int main() {
 }
 
 
+/*
+3
+3
+3 3 2
+7 5 3 
+3 2 2
+9 0 2
+2 1 1
+2 1 1
+3 2 2
+*/
+
 
 
 15.number of page faults for a reference string for the FIFO page replacement algorithms:
@@ -1817,7 +1865,11 @@ int main() {
     return 0;
 }
 
-
+/*
+3
+7
+1 2 3 2 4 1 5
+*/
 
 16.LRU page replacement algorithms: 
 #include <stdio.h>
@@ -1894,6 +1946,11 @@ int main() {
     return 0;
 }
 
+/*
+3
+7
+1 2 3 2 4 1 5
+*/
 
 
 17.Optimal page replacement algorithms:
@@ -1974,6 +2031,11 @@ int main() {
     return 0;
 }
 
+/*
+3
+7
+1 2 3 2 4 1 5
+*/
 
 18.FCFS disk scheduling.
 #include <stdio.h>
@@ -2023,6 +2085,11 @@ int main() {
     return 0;
 }
 
+/*
+4
+50
+70 80 37 122
+*/
 
 19.SSTF
 #include <stdio.h>
@@ -2097,6 +2164,11 @@ int main() {
     return 0;
 }
 
+/*
+4
+50
+70 80 37 122
+*/
 
 20.SCAN
 #include <stdio.h>
@@ -2209,7 +2281,13 @@ int main() {
 }
 
 
-
+/*
+5
+200
+50 
+1 
+82 170 43 140 24
+*/
 
 21.csacn
 #include <stdio.h>
@@ -2331,6 +2409,13 @@ int main() {
     return 0;
 }
 
+/*
+5
+200
+50 
+1 
+82 170 43 140 24
+*/
 
 22.1)  zombie process 2),orphan processes 3)sum of even numbers of an array in parent and odd numbers of an array in child process
 #include <stdio.h>
