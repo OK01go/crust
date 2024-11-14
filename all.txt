@@ -2455,7 +2455,6 @@ int main()
 
     cout << "successfully copied the content";
 }
-
 25.load ALP program from input file to main memory.
 #include <bits/stdc++.h>
 using namespace std;
